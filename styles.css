@@ -1,1 +1,46 @@
 /* Write your CSS here! */
+body {
+	font-size: 11pt; /* default for page */
+	/* font-family: 'Verdana', sans-serif; */
+	/* font-family: 'Georgia', serif; */
+	color: #333; /* off-black default for text */
+	background-color: cornsilk; /* shorthand for #ffffff */
+	height: 100vh; /* 100% of viewport height */
+	width: 100vw; /* 100% of viewport width */
+	margin: 0px; /* set this in other elements instead */
+	padding: 0px; /* ditto */
+	box-sizing: border-box; /* this just overrides a browser default that can affect layout */
+}
+
+header {
+	/* TODO: specify different color for text */
+	/* TODO: specify different background-color */
+	/* OPTIONAL: center text within header */
+	/* TODO: set the width to 100% */
+	/* OPTIONAL: specify height if you want (otherwise it will be auto) */
+	/* TODO: set padding to keep <h1> away from edges */
+	color: white;
+	background-color: yellowgreen;
+	text-align: center;
+	width: 100%;
+	padding: 10px 20px;
+}
+#box-section {
+	/* TODO: Give this boxy section its own background-color */
+	/* TODO: Override section border property */
+	/* TODO: Override section padding property */
+	background-color: mediumseagreen;
+	border: 4px solid lightblue;
+	padding: 15px;
+	margin: 30px 80px; /* keep same top & bottom as <section> but add left & right */
+}
+#list-heading {
+	/* TODO: Make heading large using rem unit */
+	/* TODO: Make font-weight bold */
+	/* OPTIONAL: Change color of text */
+	/* TODO: Adjust top margin to pull it closer to top of box */
+	font-size: 1.2rem; /* 120% relative to default size */
+	font-weight: bold;
+	color: lightblue;
+	margin: 8px;
+}
