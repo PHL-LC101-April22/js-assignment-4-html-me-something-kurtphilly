@@ -44,8 +44,8 @@ h2 {
 
 #mainHeading {
 	
-	background-color: red;
-	color: #f5c18b;
+	background-color: #cf7671;
+	color: red;
 	width: 90%;
 	padding: 10px 20px;
 	border-style: solid;
@@ -78,7 +78,7 @@ h2 {
 }
 
 .funParagraph {
-	color: rgb(15, 106, 15);
+	color: green;
 }
 
 .content {
