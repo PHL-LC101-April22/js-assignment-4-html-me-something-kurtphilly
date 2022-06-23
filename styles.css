@@ -1,1 +1,101 @@
 /* Write your CSS here! */
+body {
+	font-size: 11pt;
+	display: block;
+	color: #333;
+	/* off-black default for text */
+	background-color: #e1aaa7;
+	/* shorthand for #ffffff */
+	height: 100vh;
+	/* 100% of viewport height */
+	width: 100vw;
+	/* 100% of viewport width */
+	margin: 8px;
+	/* set this in other elements instead */
+	padding: 0px;
+	/* ditto */
+	box-sizing: border-box;
+	/* this just overrides a browser default that can affect layout */
+}
+head {
+	margin: 8px;
+	width: 100vh;
+}
+
+
+footer {
+	text-align: center;
+}
+
+img {
+	display: inline-block;
+  }
+
+p {
+	font-size: 15px;
+}
+
+
+
+h2 {
+	text-decoration: underline;
+	font-size: 1.6em;
+}
+
+#mainHeading {
+	
+	background-color: #cf7671;
+	color: red;
+	width: 90%;
+	padding: 10px 20px;
+	border-style: solid;
+	border-color: #555;
+	text-align: center;
+	margin: 30px 80px;
+
+
+
+
+}
+
+#box-section {
+	
+	list-style-position: center;
+	background-color: #cf7671;
+	border: 4px solid #555;
+	padding: 15px;
+	margin: 30px 80px;
+	
+}
+
+#list-heading {
+
+	font-size: 1.3rem;
+
+	font-weight: bold;
+
+	margin: 8px;
+}
+
+.funParagraph {
+	color: green;
+}
+
+.content {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #cf7671;
+	padding: 0px 1.6em;
+	border: 4px solid #555;
+	margin-top: 1.6em;
+}
+
+.row {
+	display: flex;
+}
+
+.cell {
+	flex: 1;
+	margin: 0px 60px;
+}
