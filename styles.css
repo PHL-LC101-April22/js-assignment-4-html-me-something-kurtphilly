@@ -1,46 +1,101 @@
 /* Write your CSS here! */
 body {
-	font-size: 11pt; /* default for page */
-	/* font-family: 'Verdana', sans-serif; */
-	/* font-family: 'Georgia', serif; */
-	color: #333; /* off-black default for text */
-	background-color: cornsilk; /* shorthand for #ffffff */
-	height: 100vh; /* 100% of viewport height */
-	width: 100vw; /* 100% of viewport width */
-	margin: 0px; /* set this in other elements instead */
-	padding: 0px; /* ditto */
-	box-sizing: border-box; /* this just overrides a browser default that can affect layout */
+	font-size: 11pt;
+	display: block;
+	color: #333;
+	/* off-black default for text */
+	background-color: #e1aaa7;
+	/* shorthand for #ffffff */
+	height: 100vh;
+	/* 100% of viewport height */
+	width: 100vw;
+	/* 100% of viewport width */
+	margin: 8px;
+	/* set this in other elements instead */
+	padding: 0px;
+	/* ditto */
+	box-sizing: border-box;
+	/* this just overrides a browser default that can affect layout */
+}
+head {
+	margin: 8px;
+	width: 100vh;
 }
 
-header {
-	/* TODO: specify different color for text */
-	/* TODO: specify different background-color */
-	/* OPTIONAL: center text within header */
-	/* TODO: set the width to 100% */
-	/* OPTIONAL: specify height if you want (otherwise it will be auto) */
-	/* TODO: set padding to keep <h1> away from edges */
-	color: white;
-	background-color: yellowgreen;
+
+footer {
 	text-align: center;
-	width: 100%;
+}
+
+img {
+	display: inline-block;
+  }
+
+p {
+	font-size: 15px;
+}
+
+
+
+h2 {
+	text-decoration: underline;
+	font-size: 1.6em;
+}
+
+#mainHeading {
+	
+	background-color: #ba453f;
+	color: #f5c18b;
+	width: 90%;
 	padding: 10px 20px;
+	border-style: solid;
+	border-color: #555;
+	text-align: center;
+	margin: 30px 80px;
+
+
+
+
 }
+
 #box-section {
-	/* TODO: Give this boxy section its own background-color */
-	/* TODO: Override section border property */
-	/* TODO: Override section padding property */
-	background-color: mediumseagreen;
-	border: 4px solid lightblue;
+	
+	list-style-position: center;
+	background-color: #cf7671;
+	border: 4px solid #555;
 	padding: 15px;
-	margin: 30px 80px; /* keep same top & bottom as <section> but add left & right */
+	margin: 30px 80px;
+	
 }
+
 #list-heading {
-	/* TODO: Make heading large using rem unit */
-	/* TODO: Make font-weight bold */
-	/* OPTIONAL: Change color of text */
-	/* TODO: Adjust top margin to pull it closer to top of box */
-	font-size: 1.2rem; /* 120% relative to default size */
+
+	font-size: 1.3rem;
+
 	font-weight: bold;
-	color: lightblue;
+
 	margin: 8px;
+}
+
+.funParagraph {
+	color: rgb(15, 106, 15);
+}
+
+.content {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #cf7671;
+	padding: 0px 1.6em;
+	border: 4px solid #555;
+	margin-top: 1.6em;
+}
+
+.row {
+	display: flex;
+}
+
+.cell {
+	flex: 1;
+	margin: 0px 60px;
 }
